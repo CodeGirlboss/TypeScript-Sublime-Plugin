@@ -22,7 +22,7 @@ class TooltipEventListener:
                 if _paren_pressed:
                     # TODO: Check 'typescript_auto_popup' setting is True
                     logger.log.debug('Triggering popup of sig help on paren')
-                    popup_manager.queue_signature_popup(view)
+                    # popup_manager.queue_signature_popup(view)
 
     def on_selection_modified_with_info(self, view, info):
         # hide the doc info output panel if it's up
